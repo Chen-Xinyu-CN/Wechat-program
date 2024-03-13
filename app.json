@@ -1,0 +1,49 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/jieshao/jieshao",
+        "pages/chengjiu/chengjiu",
+        "pages/guanyu/guanyu",
+        "pages/jiaocheng/jiaocheng",
+        "pages/zuozhe/zuozhe",
+        "pages/jiangbei/jiangbei"
+
+
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "汉诺塔",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#000",
+        "selectedColor": "#00f",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "/images/home-off.png",
+                "selectedIconPath": "/images/home-on.png"
+            },
+            {
+                "pagePath": "pages/jieshao/jieshao",
+                "text": "介绍",
+                "iconPath": "/images/kj-off.png",
+                "selectedIconPath": "/images/kj-on.png"
+            }, 
+            {
+                "pagePath": "pages/chengjiu/chengjiu",
+                "text": "成就",
+                "iconPath": "/images/fuwu-off.png",
+                "selectedIconPath": "/images/fuwu-on.png"
+            },
+            {
+                "pagePath": "pages/guanyu/guanyu",
+                "text": "关于我们",
+                "iconPath": "/images/API-off.png",
+                "selectedIconPath": "/images/API-on.png"
+            }
+        ]
+    },
+    "sitemapLocation": "sitemap.json"
+}

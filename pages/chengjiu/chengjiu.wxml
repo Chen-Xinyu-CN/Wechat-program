@@ -1,0 +1,25 @@
+<!--pages/chengjiu/chengjiu.wxml-->
+<view>
+    <image class="bg" mode="scaleToFill" src="/images/bg.jpg" style="opacity: {{0.5}};"></image>
+
+    <form bindsubmit="formsubmit">
+        <view class="line">
+            <text>第一关key：</text>
+            <input type="text" bindchange="inputemail" name="first" value="{{first}}" />
+        </view>
+
+        <view class="line">
+            <text>第二关key：</text>
+            <input type="text" name="second" value="{{second}}" />
+        </view>
+
+        <view class="line">
+            <text>第三关key：</text>
+            <input type="text" name="third" value="{{third}}" />
+        </view>
+        <button type="primary" form-type="submit">确认</button>
+        <view>
+            <view class="txt">{{showmsg1}}</view>
+        </view>
+    </form>
+</view>

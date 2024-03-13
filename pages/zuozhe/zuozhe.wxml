@@ -1,0 +1,15 @@
+<!--pages/zuozhe/zuozhe.wxml-->
+<view>
+    <image class="bg" mode="scaleToFill" src="/images/bg.jpg" style="opacity: {{0.5}};"></image>
+    <view style="font-size: larger;font-style: italic;font-weight: bold;text-align: center;">21121762 娄译丹</view>
+    <image src="/images/lou.jpg" mode="aspectFit"></image>
+    <view style="font-size: large;"> 负责介绍、成就、关于我们三个tabbar,以及程序页面布局美化</view>
+
+    <view style="font-size: larger;font-style: italic;font-weight: bold;text-align: center;">21121904 张铭津</view>
+    <image src="/images/zhang.jpg" mode="aspectFit"></image>
+    <view style="font-size: large;"> 负责介绍、成就、关于我们三个tabbar，以及程序页面布局美化</view>
+
+    <view style="font-size: larger;font-style: italic;font-weight: bold;text-align: center;">21121877 陈欣宇</view>
+    <image src="/images/chen.jpg" mode="aspectFit"></image>
+    <view style="font-size: large;"> 负责游戏主体部分的构思和实现</view>
+</view>

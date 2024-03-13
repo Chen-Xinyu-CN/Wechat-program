@@ -1,0 +1,32 @@
+<!--index.wxml-->
+<view>
+    <image class="bg" mode="scaleToFill" src="/images/bg.jpg" style="opacity: {{0.5}};"></image>
+</view>
+<view class="title">关卡选择</view>
+<view class="ti2">Enjoy it!</view>
+<view class="box">
+<navigator url="../../pages/hannuota/pages/index/index">
+  <view class="waikuang">
+    <icon type="success" class="ml"></icon>
+    <view class="mc">第1关</view>
+    <image src='../../pages/SuCai/right-arrow.png' class="mr"></image>
+  </view>
+</navigator>
+<navigator url="../../pages/hannuo2/pages/index/index">
+  <view class="waikuang">
+    <icon type="success" class="ml"></icon>
+    <view class="mc">第2关</view>
+    <image src='../../pages/SuCai/right-arrow.png' class="mr"></image>
+  </view>
+</navigator>
+<navigator url="../../pages/hannuo3/pages/index/index">
+  <view class="waikuang">
+    <icon type="success" class="ml"></icon>
+    <view class="mc">第3关</view>
+    <image src='../../pages/SuCai/right-arrow.png' class="mr"></image>
+  </view>
+</navigator>
+</view>
+ <view class="out">
+   <image src="../../pages/SuCai/han.jpg" mode="aspectFill"></image>
+ </view>

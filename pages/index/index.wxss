@@ -1,0 +1,22 @@
+nevigator{
+  margin: 5px;
+  font-size: 20px;
+}
+.waikuang{
+  display: flex;
+  flex-direction: row;
+  margin: 5px 0px;
+  padding: 5px 0px;
+}
+.ml{margin-right: 10px;}
+.mc{flex: 1;}
+.mr{width: 40rpx;height: 40rpx;margin-top: 5px;}
+.out{
+  text-align: center;
+  margin: 5px 0;
+}
+.image{
+  width: 200px;
+  height: 200px;
+  background-color: #dddddd;
+}

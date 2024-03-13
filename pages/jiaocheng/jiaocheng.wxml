@@ -1,0 +1,8 @@
+<!--pages/jiaocheng/jiaocheng.wxml-->
+<view>
+    <image class="bg" mode="scaleToFill" src="/images/bg.jpg" style="opacity: {{0.5}};"></image>
+    <view style="font-size: larger;font-style: italic;font-weight: bold;text-align: center;">视频教程</view>
+    <view class="videolayout">
+        <video src="/video/hannuo.mp4"></video>
+    </view>
+</view>

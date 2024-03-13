@@ -1,0 +1,30 @@
+// pages/chengjiu/chengjiu.js
+Page({
+    onLoad(options){
+      console.log("--chengjiu.js--onLoad--页面加载")
+    },
+    onReady(){
+      console.log("--chengjiu.js--onReady--页面初次渲染完成")
+    },
+    onshow(){
+      console.log("--chengjiu.js--onShow--页面显示")
+    },
+    onHide(){
+      console.log("--chengjiu.js--onHide--页面隐藏")
+    },
+    onUnload(){
+      console.log("--chengjiu.js--onUnload--页面卸载")
+    },
+    formsubmit(e){
+      if(e.detail.value.first!=114514||e.detail.value.second!=1433223||e.detail.value.third!=4.0&4.0&4.0){
+          this.setData({
+              showmsg1:'密码错误！',
+          })
+      }
+      else{
+          wx.navigateTo({
+            url: '../jiangbei/jiangbei',
+          })
+      }
+  },
+})

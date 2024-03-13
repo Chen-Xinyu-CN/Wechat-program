@@ -1,0 +1,22 @@
+/* pages/guanyu/guanyu.wxss */
+navigator{
+    margin: 5px;
+    font-size: 20px;
+  }
+.waikuang{
+    display: flex;
+    flex-direction: row;
+    margin: 5px 5px;
+    padding: 5px 5px;
+  }
+  .left{
+    margin-right: 10px;
+  }
+  .center{
+    flex: 1;
+  }
+  .right{
+    width: 40rpx;
+    height: 40rpx;
+    margin-top: 5px;
+  }

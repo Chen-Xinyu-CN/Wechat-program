@@ -1,0 +1,14 @@
+<!--pages/jieshao/jieshao.wxml-->
+<view>
+  <image class="bg" mode="scaleToFill" src="/images/bg.jpg" style="opacity: {{0.5}};"></image>
+  <view style="font-size: larger;font-style: italic;font-weight: bold;text-align: center;">汉诺塔游戏介绍</view>
+  <view style="text-indent: 30px;margin: 10px 20px;">
+    汉诺塔是根据一个传说形成的数学问题。描述如下：有三根杆子 A、B、C 。 A 杆上 N 个 穿孔圆盘，盘的尺寸由下到上依次变小。要求按下列规则将所有圆盘移至 C 杆：每次只能移动一个圆盘大盘不能叠在小盘上面可将圆盘临时置于 B 杆，也可将从 A 杆移出的圆盘重新移回 A 杆，但都必须遵循上述两条规则。问：如何移？最少要移动多少次？
+  </view>
+  <navigator url="/pages/jiaocheng/jiaocheng">
+    <view class="waikuang">
+      <view class="center">视频教程</view>
+      <image src="../../images/right-arrow.png" class="right"></image>
+    </view>
+  </navigator>
+</view>

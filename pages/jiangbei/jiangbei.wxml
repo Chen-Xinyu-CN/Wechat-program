@@ -1,0 +1,8 @@
+<!--pages/jiangbei/jiangbei.wxml-->
+<view>
+    <image class="bg" mode="scaleToFill" src="/images/bg.jpg" style="opacity: {{0.5}};"></image>
+    <view>
+        <image src="/images/jiangbei.jpg" mode="aspectFit"></image>
+        <view style="font-size: larger;font-style: italic;font-weight: bold;text-align: center;">恭喜你！闯关成功！</view>
+    </view>
+</view>

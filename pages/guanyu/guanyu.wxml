@@ -1,0 +1,10 @@
+<!--pages/guanyu/guanyu.wxml-->
+<view>
+    <image class="bg" mode="scaleToFill" src="/images/bg.jpg" style="opacity: {{0.5}};"></image>
+    <navigator url="/pages/zuozhe/zuozhe">
+        <view class="waikuang">
+            <view class="center">作者介绍</view>
+            <image src="../../images/right-arrow.png" class="right"></image>
+        </view>
+    </navigator>
+</view>
